@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const Navbar = () => {
   return (
@@ -44,7 +44,8 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">ABES FSD</a>
+        <a className="btn btn-ghost text-xl">
+          <img src="abeslogo.png" className="h-[50px] w-[50px]" alt="" /> ABES FSD</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
